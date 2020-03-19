@@ -1,0 +1,90 @@
+/* Meu primeiro arquivo CSS 
+seletor{
+	propriedade: valor;
+}
+*/
+
+/* TAGS */
+
+p {
+	color: #FFFFFF; /* cor em hexadecimal ou ingles*/
+	font-size: 15px; /* tamanho do texto */
+	padding: 10px;
+	font-weight: bold;
+}
+
+body {
+	background-color: #FFFFFF; 
+}
+
+* { /* retira o espaçamento padrão do navegador */
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica; /* fonte padrao "Time New Roman", precisa ficar entre aspas se o nome tem mais de uma palavra*/
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #111111;
+}
+
+header {
+	background-color: #2055D2;
+	height: 80px;
+	padding: 20px;
+}
+
+footer {
+	clear: both; /* limpa a propriedade float */
+	background-color: #2055D2;
+	height: 40px;
+	text-align: center;
+	padding: 10px;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #111111;
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 1px 1px 1px #111111;
+}
+
+/* IDS */
+
+#div_principal {
+	clear: both;
+	background-image: url('city.jpg');
+	min-height: 500px; /* define um tamanho minimo que aumenta conforme o conteudo */
+	background-size: 100%;
+	padding: 100px;
+}
+
+#logo{
+	float: left;
+}
+
+#menu {
+	margin-top: 77px; 
+	float: right;
+}
+
+#menu a{ /* pegas os links do ID */
+	text-decoration: none;
+	padding: 10px 30px;
+}
+
+#menu a:hover { /* pegas os links do ID */
+	background-color: #FFFFFF;
+	color: #2055D2;
+	
+}
+
+/* CLASS */
+
+.container {
+	width: 960px;
+	margin: 0 auto; /* define automaticamente o tamanho da margin do lado esquerdo e direito */
+
+}
+
+.efeito {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 50px 50px 50px 50px;
+}
